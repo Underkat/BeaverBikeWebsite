@@ -20,12 +20,17 @@
 
 .navbar a {
   text-decoration: none;
-  font-size: 3rem;
+  font-size: 2rem;
+  color: black;
+  
+}
+.nav-button-item{
+  margin: 10px;
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 750px) {
   .navbar {
-    height: 350px;
+    height: 300px;
   }
   .navbar .navbar-container {
     align-items: center;
@@ -33,7 +38,7 @@
     flex-direction: column;
   }
   .navbar-logo img {
-    height: 125px;
+    height: 100px;
   }
   .nav-buttons {
     flex-direction: column;
