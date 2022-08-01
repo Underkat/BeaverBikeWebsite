@@ -1,0 +1,20 @@
+.hero-container {
+  height: 500px;
+  background-image: url("https://i.imgur.com/whryeLY.png");
+  background-size: cover;
+  background-position:center ;
+  box-shadow: 0 3000px rgba(0, 0, 0, 0.6) inset;
+}
+
+.hero-container{
+    display: flex;
+    justify-content: center;
+    color: aliceblue;
+    align-items: center;
+}
+
+@media screen and (max-width: 700px){
+    .hero-container{
+        height: 400px;
+    }
+}
